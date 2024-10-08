@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 export class FoodService {
   getAll(): string[] {
     return [
-      '/Users/lamarweshahi/foodWebsite/src/assets/images/pexels-dana-tentis-118658-262959.jpg',
+      '/assets/images/pexels-dana-tentis-118658-262959.jpg',
       '/assets/images/pexels-elevate-1267320.jpg',
       '/assets/images/pexels-janetrangdoan-1128678.jpg',
       '/assets/images/pexels-sydney-troxell-223521-708488.jpg',
