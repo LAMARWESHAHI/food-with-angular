@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
 import { SearchComponent } from './search/search.component';
+import { TagsComponent } from './tags/tags.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    SearchComponent
+    SearchComponent,
+    TagsComponent
   ],
   imports: [
     BrowserModule,
